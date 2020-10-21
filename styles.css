@@ -4,10 +4,18 @@ body {
     line-height: 1;
     margin-bottom: 15px;
   }
+  
   .container{
       height: 50px;
-      column-width: auto;
-      
+      column-width: 70px;
+    }
+  .div {
+    padding: 25px 50px 75px 100px;
+  }  
+  
+  .div {
+    height: 100px;
+    width: fit-content;
   }
   
   textarea{

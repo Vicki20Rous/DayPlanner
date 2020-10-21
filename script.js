@@ -37,11 +37,12 @@ $(window).on("load", function (){
             $('#' + currentContainer).addClass("present");
             $('#' + currentContainer).children('div').children('div').children("textarea").addClass("past");}
         }
-        else if (currentTime > i) {
+        else if {  
+            (currentTime > i) )]
             $('#' + currentContainer).addClass("past");
             $('#' + currentContainer).children('div').children('div').children("textarea").addClass("present");
         }
-        else  {
+        if
             $('#' + currentContainer).addClass("future");
             $('#' + currentContainer).children('div').children('div').children("textarea").addClass("future");
         }
